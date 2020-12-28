@@ -1,0 +1,26 @@
+name: {{cookiecutter.project_name}}
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  pspdfkit_flutter:
+    git:
+      url: git://github.com/PSPDFKit/pspdfkit-flutter.git
+  path_provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/A.pdf
