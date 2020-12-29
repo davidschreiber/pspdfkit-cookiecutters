@@ -1,0 +1,7 @@
+{
+    "project_name": "pspdfkit_flutter_catalog",
+    "_copy_without_render": [
+        "android/gradlew",
+        "*.pdf"
+    ]
+}

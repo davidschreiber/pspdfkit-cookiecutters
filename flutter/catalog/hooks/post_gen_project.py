@@ -8,7 +8,7 @@ else:
 
 
 def setup_project_environment():
-    p = subprocess.Popen([FLUTTER_COMMAND, "packages", "get"])
+    p = subprocess.Popen([FLUTTER_COMMAND, "packages", "get"], stdout=subprocess.DEVNULL)
     p.wait()
 
 

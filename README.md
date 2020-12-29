@@ -9,7 +9,7 @@ Various PSPDFKit-related cookiecutters for use with https://github.com/cookiecut
 
   ```shell
   # This creates a PSPDFKit Flutter example. Use any of the cookiecutters from the pantry.
-  $ cookiecutter gh:davidschreiber/pspdfkit-cookiecutters --directory flutter-example
+  $ cookiecutter gh:davidschreiber/pspdfkit-cookiecutters --directory flutter/simple
   project_name [myapp]:
   Running "flutter pub get" in myapp...                              0,6s
  
@@ -19,4 +19,5 @@ Various PSPDFKit-related cookiecutters for use with https://github.com/cookiecut
 
 # Pantry
 
-* `flutter-example` - a simple example app using https://github.com/PSPDFKit/pspdfkit-flutter
+* `flutter/simple` - a simple example app based on the instructions from https://github.com/PSPDFKit/pspdfkit-flutter
+* `flutter/catalog` - the Flutter example Catalog available from https://github.com/PSPDFKit/pspdfkit-flutter
