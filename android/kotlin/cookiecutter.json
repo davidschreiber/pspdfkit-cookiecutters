@@ -1,0 +1,6 @@
+{
+  "project_name": "pspdfkit-kotlin",
+  "application_id": "com.pspdfkit.kotlin",
+  "pspdfkit_version": "6.5.3",
+  "pspdfkit_license_key": "YOUR_LICENSE_KEY_GOES_HERE"
+}
