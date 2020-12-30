@@ -8,13 +8,12 @@ Various PSPDFKit-related cookiecutters for use with https://github.com/cookiecut
 * Run any of the given cookiecutters to have a fresh PSPDFKit-enabled project, for example:
 
   ```shell
-  # This creates a PSPDFKit Flutter example. Use any of the cookiecutters from the pantry.
-  $ cookiecutter gh:davidschreiber/pspdfkit-cookiecutters --directory flutter/simple
-  project_name [myapp]:
-  Running "flutter pub get" in myapp...                              0,6s
- 
-  # That's it. You can now run the PSPDFKit Flutter example.
-  $ cd myapp && flutter run
+  # This creates a PSPDFKit for Android example using Kotlin.
+  $ cookiecutter gh:davidschreiber/pspdfkit-cookiecutters --directory android/kotlin
+  project_name [pspdfkit-kotlin]:
+  application_id [com.pspdfkit.kotlin]:
+  pspdfkit_version [6.5.3]:
+  pspdfkit_license_key [YOUR_LICENSE_KEY_GOES_HERE]:
   ```
 
 # Pantry
