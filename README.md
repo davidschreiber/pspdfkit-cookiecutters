@@ -19,5 +19,6 @@ Various PSPDFKit-related cookiecutters for use with https://github.com/cookiecut
 
 # Pantry
 
+* `android/kotlin` - a simple Kotlin based PSPDFKit example for Android, having a single `PdfActivity`. 
 * `flutter/simple` - a simple example app based on the instructions from https://github.com/PSPDFKit/pspdfkit-flutter
 * `flutter/catalog` - the Flutter example Catalog available from https://github.com/PSPDFKit/pspdfkit-flutter
